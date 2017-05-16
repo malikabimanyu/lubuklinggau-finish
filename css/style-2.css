@@ -1,0 +1,160 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(250, 250, 250);
+}
+
+.break{
+  margin-bottom: 3%;
+}
+
+#header-nav{
+  margin-top: 2%;
+}
+
+#header-nav .jumbotron{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 24px;
+}
+
+#header-nav .nav{
+  position: absolute;
+  top: 13%;
+  left: 17.3%;
+}
+
+#header-nav .nav>li>a:focus, .nav>li>a:hover {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+#header .jumbotron{
+  background-color: transparent;
+  background-image: url("../images/4.png");
+  background-size: cover;
+  margin-bottom: 0px;
+}
+
+#header h1, #header p{
+  color: white;
+  text-align: center;
+}
+
+#header p{
+  font-size: 2em;
+  margin-bottom: 5%;
+}
+
+#header .jumbotron{
+  padding-top: 150px;
+  padding-bottom: 150px;
+  border-bottom: 3px solid #007ac1;
+}
+
+#header .label{
+  font-size: 159%;
+  border-radius: 0em;
+}
+
+#header .label-default{
+  background-color: #03a9f4;
+  transition: 0.2s;
+}
+
+#header .label-default:hover{
+  background-color: #007ac1;
+  transition: 0.3s;
+}
+
+#content-1 i.material-icons{
+  font-size: 4em;
+  color: #03a9f4;
+}
+
+#content-1 p{
+  font-size: 1em;
+  line-height: 2em;
+  margin-bottom: 10%;
+}
+
+#content-2 p{
+  font-size: 2em;
+  color: white;
+}
+
+#content-2 .jumbotron{
+  background-color: #03a9f4;
+}
+
+.judul-berita{
+  font-size: 1.3em;
+}
+
+#content-4 .label-default {
+    background-color: #007ac1;
+}
+
+#content-4 .label{
+  font-size: 90%;
+}
+
+#more{
+  margin-top: 8%;
+}
+
+#more .label{
+  font-size: 130%;
+}
+
+#more .label-danger{
+  background-color: #007ac1;
+  transition: 0.3s;
+}
+
+#more .label-danger:hover{
+  background-color: #03a9f4;
+  transition: 0.2s;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    background-color: #007ac1;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px;
+}
+
+.list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#footer-beranda .jumbotron{
+  background-color: #007ac1;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 5%;
+  padding-bottom: 30px;
+  border-top: 5px solid #03a9f4;
+}
+
+.col-md-6{
+  border: 1px solid rgb(226, 226, 226);
+  box-shadow: 0 0 10px rgba(102,102,102,0.1);
+}
+
+#berita-heading .col-md-6{
+  border: 0px solid rgb(226, 226, 226);
+  box-shadow: 0 0 0px rgba(102,102,102,0.1);
+}
+
+#content-4{
+  margin-top: 3%;
+}
+
+blockquote{
+  border-left: 0px solid #eee;
+  font-size: 1em;
+  padding: 10px 0px;
+}
